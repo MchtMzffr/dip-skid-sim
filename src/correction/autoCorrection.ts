@@ -1,0 +1,1 @@
+export const isOvershoot=(e0:number,e1:number)=>(e0>0.05&&e1<-0.05)||(e0<-0.05&&e1>0.05)
